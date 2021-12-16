@@ -1,0 +1,14 @@
+
+echo "monotonicity_{}_{}_{}"
+
+cd exp
+
+python train.py \
+--reg_mode {} \
+--dataset {} \
+--model {} \
+--plot_pdp \
+--verify \
+--quiet
+
+echo "DONE."

@@ -1,0 +1,14 @@
+
+echo "monotonicity_cmn_blogData_cmn_MLP"
+
+cd exp
+
+python train.py \
+--reg_mode cmn \
+--dataset blogData \
+--model cmn_MLP \
+--plot_pdp \
+--verify \
+--quiet
+
+echo "DONE."
